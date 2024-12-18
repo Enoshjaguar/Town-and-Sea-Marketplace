@@ -13,7 +13,7 @@ const OfferForm = () => {
   const handlesubmit = async(e)=>{
     e.preventDefault()
     try {
-      const response = await axios.post('http://localhost:3400/offers/offer',{
+      const response = await axios.post('https://town-and-sea-marketplace.onrender.com',{
         productName: product.name,
         productPrice : product.price,
         mobile,
