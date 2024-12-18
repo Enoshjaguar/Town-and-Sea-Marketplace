@@ -1,0 +1,214 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+.navbar{
+  display: flex;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 530px;
+  position: relative;
+
+
+}
+.navbar .nav ul{
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  margin-left: 630px;
+  
+}
+.navbar .nav ul li{
+  list-style-type: none;
+}
+.navtitle h1{
+  color: navy;
+  margin-left: 20px;
+}
+.navtitle h3{
+  position: relative;
+  left: 25px;
+}
+.header{
+  background-color: navy;
+  text-align: center;
+  color: white;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  width: 100%;
+
+}
+.image1{
+  
+  position: relative;
+  bottom: 530px;
+  
+}
+.image1 img{
+  width: 700px;
+  height: 500px;
+  
+} 
+.matterdiv{
+  background-color: brown;
+ 
+  height: 500px;
+  position: relative;
+  right: 0;
+  left: 0px;
+  bottom: 530px;
+
+}
+.matterdiv h1{
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+.matterdiv p{
+  color: white;
+  position: relative;
+  left: 20px;
+}
+.matterimage{
+  display: flex;
+}
+.matterdiv button{
+  position: relative;
+  top: 50px;
+  left: 30px;
+}
+.footer{
+  width: 100%;
+  background-color: #f4f4f4;
+  color: #2E4053;
+
+  position: relative;
+  bottom: 540px;
+}
+.footerimagesection{
+  width: 100%;
+
+  display: flex;
+  gap: 20px;
+  position: relative;
+  bottom: 530px;
+}
+.footerimagesection img{
+  width: 23%;
+  height: 300px;
+  border-radius: 15px;
+  margin-left: 14px;
+  transition: width 0.5s ease, opacity 0.5s ease;
+}
+.footerimagesection img:hover{
+  width: 800px;
+  opacity: 0.9;
+}
+.registerbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 500px;
+
+}
+.registerbtn button{
+  background-color: brown;
+  color: white;
+
+}
+.product-container {
+  display: flex;
+  position: relative;
+  bottom: 530px;
+  flex-wrap: wrap;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+.product-card img{
+  height:400px;
+  width: 100%;
+}
+
+.product-card{
+  width: 25%;
+  box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.product-card button{
+  background-color: brown;
+  color: white;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.product-card p{
+  margin-bottom: 5px;
+
+}
+.offerform{
+  box-shadow: 0px 5px 10px 9px rgba(0, 0, 0, 0.3);
+  display: flex;
+  margin-left: 550px;
+  width: 70%;
+  justify-content: center;
+  
+}
+.offerformform{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.offerformform label{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.offerformform input{
+  width: 300px;
+  height: 30px;
+  margin-top: 10px;
+}
+.offerformform button{
+  background-color: brown;
+  color: white;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.respnseMessage{
+  font-size: 30px;
+  font-weight: 500;
+  color: brown;
+}
+.offer-card {
+  border: 1px solid #ccc;
+  margin-left: 450px;
+  position: relative;
+  bottom: 80px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.offer-card button{
+  background-color: brown;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
